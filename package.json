@@ -1,0 +1,30 @@
+{
+  "name": "rnv-data-client",
+  "main": "index.js",
+  "description": "A simple node.js client for the RNV Data Hub API",
+  "version": "1.0.2",
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rhein-Neckar-Verkehr/data-hub-nodejs-client"
+  },
+  "keywords": [
+    "oauth2",
+    "https",
+    "graphql",
+    "client"
+  ],
+  "author": "Johannes Stegmüller",
+  "license": "MIT",
+  "homepage": "https://www.opendata-oepnv.de/ht/de/organisation/verkehrsunternehmen/rnv/openrnv/api",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.3.0"
+  }
+}
