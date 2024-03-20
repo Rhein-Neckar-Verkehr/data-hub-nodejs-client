@@ -88,8 +88,6 @@ some of them are described here.
 
 ## Prepare credentials
 
-The client for node.js is in this repo in the node/ folder. 
-
 1. Download the graphql.http file to this repo and place it in the root path. 
 2. Download the preparation script from gist (see below)
 3. Run the shell script ./prepare_env_file.sh this will generate a .env file which is read by the node.js application
