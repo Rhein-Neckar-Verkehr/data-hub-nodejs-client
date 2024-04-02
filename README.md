@@ -97,13 +97,13 @@ some of them are described here.
 You can copy the shell-script from node_modules if using npm.
 
 ```bash 
-$ curl https://gist.github.com/rnv-opendata/8365b1317505a80359491c2124a05e94 > prepare_env_file.sh
+$ curl https://gist.githubusercontent.com/rnv-opendata/8365b1317505a80359491c2124a05e94/raw/2fc73bdbb1dd4872feff7aa8182c477d01a379cc/prepare_env_file.sh > prepare_env_file.sh
 $ sudo chmod u+rwx prepare_env_file.sh 
 $ ./prepare_env_file.sh > .envs
 ```
 ### On Windows 
 ```bash 
-$ curl https://gist.github.com/rnv-opendata/900d43affca063caed7918f91d9531b5 > prepare_env_file.cmd  
+$ curl https://gist.githubusercontent.com/rnv-opendata/900d43affca063caed7918f91d9531b5/raw/38060421063bc4766566e5324af489fbce226cac/prepare_env_file.cmd > prepare_env_file.cmd  
 $ pwsh prepare_env_file.cmd
 ```
 
