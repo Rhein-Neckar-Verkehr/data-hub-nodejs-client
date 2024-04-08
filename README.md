@@ -4,6 +4,9 @@
 
 A simple client in node.js to access the RNV Open Data API.
 
+This readme file contains information about using the client. For detailed documentation on how to use the GraphQL interface, see the documentation [link from here](https://www.opendata-oepnv.de/ht/de/organisation/verkehrsunternehmen/rnv/openrnv/data-hub-api-dokumentationen)
+
+
 # Install client from npm 
 ```bash 
 $ npm install rnv-data-client
